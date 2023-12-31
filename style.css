@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  color: #52565b;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.nav-logo {
+  padding: 5px 48px;
+  text-decoration: none;
+  color: #06bbcc !important;
+}
+
+.nav-logo h2 {
+  font-size: 32px;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #52565b;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 30px;
+  padding: 25px 0px;
+}
+
+.nav-link:hover {
+  color: #06bbcc;
+}
+
+.btn {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 27.2px 48px;
+  background-color: #06bbcc;
+  border-color: #06bbcc;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #04d8eb;
+}
