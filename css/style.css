@@ -159,4 +159,5 @@ nav {
 /* Styles pour .service .row */
 .service .row {
   display: flex;
+  justify-content: center;
 }

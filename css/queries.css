@@ -12,4 +12,11 @@
   .nav-open {
     display: flex;
   }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .service .row {
+    flex-direction: column;
+  }
 }
