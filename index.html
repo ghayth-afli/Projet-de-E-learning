@@ -11,7 +11,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
         rel="stylesheet"
       />
-      <link href="style.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+      <link href="css/queries.css" rel="stylesheet" />
     </head>
   </head>
   <body>
@@ -23,6 +24,7 @@
             eLEARNING
           </h2></a
         >
+
         <div class="nav-items">
           <a href="index.html" class="nav-link">Home</a>
           <a href="about.html" class="nav-link">About</a>
@@ -32,7 +34,27 @@
             >Join Now &nbsp;<i class="fa fa-arrow-right ms-3"> </i
           ></a>
         </div>
+
+        <button id="btn-menu" class="btn-mobile-nav">
+          <ion-icon class="icon-menu" name="menu-outline"></ion-icon>
+        </button>
       </nav>
+
+      <div id="menu" class="nav-items-mobile">
+        <a href="index.html" class="nav-link nav-link-mobile">Home</a>
+        <a href="about.html" class="nav-link nav-link-mobile">About</a>
+        <a href="courses.html" class="nav-link nav-link-mobile">Courses</a>
+        <a href="contact.html" class="nav-link nav-link-mobile">Contact</a>
+      </div>
     </header>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

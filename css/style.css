@@ -11,12 +11,13 @@ body {
   color: #52565b;
   background-color: #fff;
 }
-
+/* NAVBAR */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 75px;
+  border-bottom: 1px solid #ced9e6;
 }
 
 .nav-logo {
@@ -55,4 +56,32 @@ nav {
 }
 .btn:hover {
   background-color: #04d8eb;
+}
+
+.btn-mobile-nav {
+  display: none;
+  cursor: pointer;
+  margin-right: 24px;
+  padding: 4px 12px;
+  background-color: transparent;
+  border: 1px solid #ced9e6;
+}
+
+.icon-menu {
+  font-size: 40px;
+}
+
+.nav-items-mobile {
+  display: none;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.nav-link-mobile {
+  padding: 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #52565b;
+  font-weight: 500;
+  font-size: 15px;
 }

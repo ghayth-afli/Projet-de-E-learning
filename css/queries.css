@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+  .nav-items {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .nav-logo {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .nav-open {
+    display: flex;
+  }
+}
