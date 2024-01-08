@@ -1,17 +1,22 @@
+/* Importation des polices depuis Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap");
+
+/* Réinitialisation des marges par défaut, des rembourrages et du modèle de boîte */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Styles du corps */
 body {
   margin: 0;
   font-family: "Heebo", sans-serif;
   color: #52565b;
   background-color: #fff;
 }
-/* NAVBAR */
+
+/* Styles de la barre de navigation */
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,6 +25,7 @@ nav {
   border-bottom: 1px solid #ced9e6;
 }
 
+/* Styles du logo */
 .nav-logo {
   padding: 5px 48px;
   text-decoration: none;
@@ -31,6 +37,7 @@ nav {
   font-family: "Nunito", sans-serif;
 }
 
+/* Styles des liens de navigation */
 .nav-link {
   text-decoration: none;
   text-transform: uppercase;
@@ -41,10 +48,12 @@ nav {
   padding: 25px 0px;
 }
 
+/* Effet au survol des liens de navigation */
 .nav-link:hover {
   color: #06bbcc;
 }
 
+/* Styles des boutons */
 .btn {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -54,10 +63,13 @@ nav {
   border-color: #06bbcc;
   text-decoration: none;
 }
+
+/* Effet au survol des boutons */
 .btn:hover {
   background-color: #04d8eb;
 }
 
+/* Styles du bouton de navigation mobile */
 .btn-mobile-nav {
   display: none;
   cursor: pointer;
@@ -67,16 +79,19 @@ nav {
   border: 1px solid #ced9e6;
 }
 
+/* Styles de l'icône du menu */
 .icon-menu {
   font-size: 40px;
 }
 
+/* Éléments de navigation mobile */
 .nav-items-mobile {
   display: none;
   flex-direction: column;
   padding: 24px;
 }
 
+/* Styles des liens de navigation mobiles */
 .nav-link-mobile {
   padding: 10px 0;
   text-decoration: none;
@@ -84,4 +99,64 @@ nav {
   color: #52565b;
   font-weight: 500;
   font-size: 15px;
+}
+
+/* Styles pour la section .container */
+.container {
+  margin-right: 88px;
+  margin-left: 88px;
+}
+
+/* Styles pour la section .service */
+.service {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+/* Styles pour la section .service .row .col */
+.service .row .col {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 24px;
+}
+
+/* Styles pour les éléments .service-item */
+.service-item {
+  background-color: #f0fbfc;
+  cursor: pointer; /* Afficher le curseur comme une flèche */
+  padding-top: 16px;
+}
+.service-item:hover {
+  background-color: #e6f8f9;
+}
+.service-item .p-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.service-item-icon {
+  color: #06bbcc;
+  margin-bottom: 24px;
+}
+
+/* Styles pour .service-item-title */
+.service-item-title {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  color: #181d38;
+  margin-bottom: 16px;
+}
+
+/* Styles pour les paragraphes dans .service-item */
+.service-item p {
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Styles pour .service .row */
+.service .row {
+  display: flex;
 }
