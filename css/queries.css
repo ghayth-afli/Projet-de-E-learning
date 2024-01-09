@@ -22,6 +22,15 @@
   .row-instructor {
     flex-wrap: wrap;
   }
+  .row-category {
+    flex-wrap: wrap;
+  }
+  .row-category-col-1 {
+    flex-wrap: wrap;
+  }
+  .row-2-col-1 {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 1199px) {
