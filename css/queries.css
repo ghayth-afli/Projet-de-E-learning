@@ -20,3 +20,13 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 1199px) {
+  .about-us .row {
+    flex-direction: column;
+  }
+  .col-image img {
+    width: 444px;
+    height: 495.15px;
+  }
+}

@@ -108,7 +108,9 @@ nav {
 }
 
 /* Styles pour la section .service */
-.service {
+section {
+  padding-top: 48px;
+  padding-bottom: 48px;
   padding-right: 12px;
   padding-left: 12px;
 }
@@ -161,3 +163,94 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+/* About US SECTION */
+.about-us .row {
+  display: flex;
+  justify-content: center;
+}
+.col-image {
+  padding-left: 12px;
+  padding-right: 24px;
+}
+.col-image img {
+  width: 612px;
+  height: 447.2px;
+}
+.col-info {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.col-info .section-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #06bbcc;
+  margin-bottom: 8px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.section-subtitle {
+  font-size: 2.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #181d38;
+  margin-bottom: 24px;
+}
+.col-info .info {
+  font-size: 1rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #52565b;
+  margin-bottom: 24px;
+}
+.row-service {
+  display: flex;
+  margin-bottom: 24px;
+}
+.row-service .col {
+  width: 294px;
+  margin-top: 8px;
+  padding-right: 12px;
+}
+.row-service .fa-arrow-right {
+  color: #06bbcc;
+  margin-right: 8px;
+}
+.btn-read-more {
+  color: #ffffff;
+  background-color: #06bbcc;
+  border: 1px solid transparent;
+  border-color: #06bbcc;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 16px 48px;
+}
+
+.btn-info {
+  margin-top: 45px;
+}
+/* .col-image {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.col-info {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.section-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #06bbcc;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+} */
