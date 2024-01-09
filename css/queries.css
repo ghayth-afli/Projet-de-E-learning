@@ -17,16 +17,19 @@
     margin-left: auto;
   }
   .service .row {
-    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .row-instructor {
+    flex-wrap: wrap;
   }
 }
 
 @media (max-width: 1199px) {
   .about-us .row {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .col-image img {
-    width: 444px;
-    height: 495.15px;
+    width: 222px;
+    height: 247.575px;
   }
 }
