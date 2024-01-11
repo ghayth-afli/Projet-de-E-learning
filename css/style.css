@@ -274,6 +274,140 @@ section {
   margin-top: 16px;
 }
 
+.img-cat {
+  position: relative;
+}
+
+.ticket {
+  position: absolute;
+  background-color: #fff;
+  margin: 1px;
+  padding: 16px 8px;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+}
+
+.ticket-title {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #181d38;
+}
+
+.ticket-count {
+  color: #06bbcc;
+}
+
+/* Courses Section */
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-courses {
+  display: flex;
+  justify-content: center;
+}
+
+.col-courses {
+  margin-top: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.course-item {
+  background-color: #f0fbfc;
+}
+
+.item-relative {
+  position: relative;
+}
+
+.buttons {
+  margin-bottom: 1.5rem !important;
+  justify-content: center !important;
+  width: 100% !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  position: absolute !important;
+  display: flex !important;
+}
+
+.border-radius-right {
+  border-radius: 30px 0 0 30px;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  border-right: 1px solid #dee2e6 !important;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.border-radius-left {
+  border-radius: 0 30px 30px 0;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  border-right: 1px solid #dee2e6 !important;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.text-center {
+  text-align: center;
+  display: block;
+  padding: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+
+.text-center h3 {
+  font-size: 28px;
+  margin-top: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #181d38;
+}
+
+.stars {
+  margin-bottom: 16px;
+  color: #06bbcc;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+
+.text-center h5 {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #181d38;
+}
+
+.d-flex {
+  border-top: 1px solid #dee2e6;
+  display: flex;
+}
+
+.flex-fill {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex: 1 1 auto;
+  border-right: 1px solid #dee2e6;
+  font-size: 14px;
+}
+
+.text-primary {
+  color: #06bbcc;
+  margin-right: 8px;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
 /* Instructors Section */
 .instructor {
   display: flex;
@@ -290,8 +424,8 @@ section {
   margin-top: 24px;
 }
 .instructor-img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
 }
 
 .instructor-info {
@@ -333,8 +467,8 @@ section {
   justify-content: center;
   font-weight: normal;
   border-radius: 0px;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   background-color: #06bbcc;
   border-color: #06bbcc;
   cursor: pointer;

@@ -1,4 +1,7 @@
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
   .nav-items {
     display: none;
   }
@@ -31,9 +34,12 @@
   .row-2-col-1 {
     flex-wrap: wrap;
   }
+  .row-courses {
+    flex-wrap: wrap;
+  }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   .about-us .row {
     flex-wrap: wrap;
   }
