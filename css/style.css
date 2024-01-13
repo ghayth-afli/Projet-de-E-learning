@@ -546,3 +546,130 @@ section {
   border-radius: 35px;
   text-decoration: none;
 }
+
+/* SLIDESHOW */
+.slideshow {
+  position: relative;
+}
+
+.slides {
+  overflow: hidden;
+}
+
+.slide {
+  position: relative;
+}
+
+.big-row {
+  position: absolute;
+  z-index: 2; /* Place it above the image */
+  color: #fff; /* Set text color */
+}
+
+.image-container {
+  position: relative;
+  z-index: 1; /* Place it below the big-row */
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    24,
+    12,
+    87,
+    0.653
+  ); /* Adjust the last value (0.5) for transparency */
+  z-index: 3; /* Place it above the image and big-row */
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.big-row {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  top: 25%;
+  left: 10%;
+}
+
+.row-m {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-bt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.col-m h5 {
+  color: #06bbcc;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.col-m h1 {
+  color: #fff !important;
+  font-size: 3.4rem;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.col-m p {
+  color: #fff;
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn1 {
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  background-color: #06bbcc;
+  border-color: #06bbcc;
+
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 16px 48px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.btn2 {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-color: #06bbcc;
+
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 16px 48px;
+  font-size: 1rem;
+  text-decoration: none;
+}
