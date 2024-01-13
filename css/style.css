@@ -554,6 +554,7 @@ section {
 
 .slides {
   overflow: hidden;
+  transition: transform 0.5s ease-in-out;
 }
 
 .slide {
@@ -672,4 +673,60 @@ section {
   padding: 16px 48px;
   font-size: 1rem;
   text-decoration: none;
+}
+
+.switch-btns {
+  position: absolute;
+  top: 50%;
+  right: 8%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+}
+
+.bt-prev {
+  margin: 7px 0;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+  font-size: 22px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.bt-prev i {
+  font-style: italic;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.bt-next {
+  margin: 7px 0;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+  font-size: 22px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.bt-next i {
+  font-style: italic;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.hide {
+  display: none;
 }
