@@ -29,7 +29,7 @@ nav {
 .nav-logo {
   padding: 5px 48px;
   text-decoration: none;
-  color: #06bbcc !important;
+  color: #06bbcc;
 }
 
 .nav-logo h2 {
@@ -554,7 +554,6 @@ section {
 
 .slides {
   overflow: hidden;
-  transition: transform 0.5s ease-in-out;
 }
 
 .slide {
@@ -624,7 +623,7 @@ section {
   line-height: 1.2;
 }
 .col-m h1 {
-  color: #fff !important;
+  color: #fff;
   font-size: 3.4rem;
   font-weight: 800;
   margin-top: 0;
@@ -679,7 +678,6 @@ section {
   position: absolute;
   top: 50%;
   right: 8%;
-  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   z-index: 4;
